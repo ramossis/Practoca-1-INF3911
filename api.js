@@ -3,7 +3,7 @@ const express = require('express')
 const app=express()
 
 app.listen(3000,()=>{
-    console.log('servidor OK en puerto 3000');
+    console.log('servidor OK en puerto 5000');
 })
 
 app.get('/',(req,res)=>{
